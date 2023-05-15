@@ -1,0 +1,113 @@
+* {
+  padding: 0;    
+  margin: auto;
+}
+
+body {
+  background-color: #e2dbff;
+}
+
+.box {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%); */
+  text-align: center;
+  
+  /* Отступ сверху */
+  margin-top: 200px; 
+}
+  
+
+
+.box input[type='text'] {
+border: 0;
+border: 5px solid aquamarine; 
+
+display: block; 
+
+margin: 10px auto;
+text-align: center;
+width: 300px;
+height: 40px;
+ /* outline: none; */
+border-radius: 24px;
+box-shadow: 5px 5px 6px rgb(62, 62, 62);
+}
+
+.box select[name='select'] {
+
+  background: white;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  /* border: 2px solid black; */
+  border-radius: 24px;
+  box-shadow: 5px 5px 6px rgb(62, 62, 62);
+  outline: none;
+} 
+
+
+
+.btn:hover {
+  width: 330px;
+}
+
+.btn-create-room:hover {
+  width: 125px;
+}
+
+.btn-enter-room:hover {
+  width: 125px;
+}
+
+.enter-button {
+  color: black;
+}
+
+.buttons {
+  margin-top: 6px;
+}
+
+.btn {
+    border: 0;
+    background: #FDF7C1;
+    height: 50px;
+    margin: 20px 0px 1px;
+    text-align: center;
+    padding: 10px 10px;
+    width: 300px;
+    border-radius: 240px;
+    transition: 0.25s;
+    box-shadow: 5px 5px 6px rgb(62, 62, 62);
+}
+
+.btn-create-room {
+ width: 120px;
+ margin: 10px;
+}
+
+.btn-create-room-create {
+  margin-right: 20px;
+}
+
+.btn-enter-room {
+  width: 120px;
+  margin: 10px;
+}
+
+.btn-enter-room-enter {
+  margin-right: 20px;
+}
+
+
+
